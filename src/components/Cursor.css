@@ -1,0 +1,21 @@
+.cursor{
+    width:20px;
+    height:20px;
+    border:2px solid #8b5cf6;
+    border-radius:50%;
+    position:fixed;
+    pointer-events:none;
+    transform:translate(-50%,-50%);
+    z-index:9999;
+    box-shadow:0 0 20px #8b5cf6;
+    transition:transform .1s ease;
+}
+
+body{
+    cursor:none;
+}
+
+a,
+button{
+    cursor:none;
+}

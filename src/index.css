@@ -1,0 +1,110 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+.navbar{
+position:fixed;
+width:100%;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.5);
+backdrop-filter:blur(10px);
+z-index:100;
+}
+
+.navbar h2{
+color:#a855f7;
+}
+
+.navbar ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:100px 10%;
+}
+
+.hero-left{
+max-width:600px;
+}
+
+.hero-left h1{
+font-size:70px;
+}
+
+.hero-left span{
+color:#a855f7;
+}
+
+.hero-left button{
+margin-top:20px;
+padding:14px 30px;
+background:#a855f7;
+border:none;
+color:white;
+border-radius:10px;
+cursor:pointer;
+}
+
+.hero-right img{
+width:350px;
+border-radius:50%;
+border:4px solid #a855f7;
+box-shadow:0 0 50px #a855f7;
+}
+
+.section{
+padding:100px 10%;
+}
+
+.section h2{
+font-size:40px;
+margin-bottom:30px;
+color:#a855f7;
+}
+
+.skills-grid,
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.skill-card,
+.project-card,
+.edu-card{
+background:rgba(255,255,255,.05);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+border:1px solid rgba(168,85,247,.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
